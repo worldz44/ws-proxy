@@ -3,7 +3,7 @@ const httpProxy = require("http-proxy");
 const app = express();
 
 const proxy = httpProxy.createProxyServer({
-  target: process.env.PROXY_TARGET || "https://your-xray-server.com",
+  target: process.env.PROXY_TARGET || "https://ooredoo.zapto.org",
   changeOrigin: true,
   ws: true,
   secure: false,

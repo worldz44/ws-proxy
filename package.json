@@ -1,6 +1,7 @@
 {
-  "name": "ws-proxy-youtube",
+  "name": "ws-proxy",
   "version": "1.0.0",
+  "description": "Reverse WebSocket proxy to Xray server with YouTube SNI",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

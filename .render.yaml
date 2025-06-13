@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: yt-proxy
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: PROXY_TARGET
+        value: https://your-xray-server.com
